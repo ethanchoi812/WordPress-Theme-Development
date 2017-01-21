@@ -195,7 +195,7 @@ article.post img{
 	color:#fff !important;
 }
 
-.sidebar-widget{
+.sidebar-widget ul{
 	padding: 0 !important;
 	list-style: none;
 }
@@ -208,5 +208,64 @@ article.post img{
 	background-color: #fff;
 	border: 1px solid #ddd;
 }
+
+.comments{
+	border:1px #ccc solid;
+	padding:10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.comments h2, .comments h3{
+	background-color: #0faf97;
+	color: #fff;
+	padding:5px;
+}
+
+.comment-body{
+	border:#ccc 1px solid;
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.comment-meta{
+	background-color: #ccc;
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+
+.comment-meta img{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.comment-meta time{
+	margin-left: 12px;
+}
+
+.comment-reply-link{
+	background-color: #0faf97;
+	color: #fff;
+	display: inline-block;
+	padding:10px 15px;
+}
+
+.comment-form input,.comment-form textarea{
+	width: 100%;
+	padding:3px;
+	border:#ccc 1px solid;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
