@@ -214,6 +214,7 @@ article.post img{
 	padding:10px;
 	margin-bottom: 20px;
 	margin-top: 10px;
+	list-style: none;
 }
 
 .comments h2, .comments h3{
